@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
@@ -68,3 +69,7 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+=======
+# blood-donation-app
+Instantly connect with blood donors in Vijayawada. Our platform helps you find the right blood type and location in an emergency. Willing to save a life? Register as a donor in just a few simple steps. We bridge the gap between heroes and those in need. Simple, fast, and dedicated to our community. Find a donor or become one today!
+>>>>>>> 6f641f9d8f9e7619b1c533710df72f2341abda7f
