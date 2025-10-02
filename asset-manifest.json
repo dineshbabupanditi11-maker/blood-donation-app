@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/blood-donation-app/static/css/main.6a49f792.css",
+    "main.js": "/blood-donation-app/static/js/main.9e6025f4.js",
+    "static/js/453.252d02a9.chunk.js": "/blood-donation-app/static/js/453.252d02a9.chunk.js",
+    "index.html": "/blood-donation-app/index.html",
+    "main.6a49f792.css.map": "/blood-donation-app/static/css/main.6a49f792.css.map",
+    "main.9e6025f4.js.map": "/blood-donation-app/static/js/main.9e6025f4.js.map",
+    "453.252d02a9.chunk.js.map": "/blood-donation-app/static/js/453.252d02a9.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.6a49f792.css",
+    "static/js/main.9e6025f4.js"
+  ]
+}
