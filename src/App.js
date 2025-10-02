@@ -1,23 +1,37 @@
-import logo from './logo.svg';
+import React, { useState } from 'react';
+import DonorForm from './DonorForm';
+import SearchPage from './SearchPage';
 import './App.css';
 
 function App() {
+  const [view, setView] = useState('search'); 
+
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+      <header className="app-header">
+        <h1>🩸 Blood Donation Network</h1>
+        <p className="subtitle">Connecting donors with those in need in Vijayawada</p>
+        
+        <nav className="main-nav">
+          <button
+            className={`nav-button ${view === 'search' ? 'active' : ''}`}
+            onClick={() => setView('search')}
+          >
+            Blood Wanted
+          </button>
+          
+          <button
+            className={`nav-button ${view === 'donate' ? 'active' : ''}`}
+            onClick={() => setView('donate')}
+          >
+            Register as a Donor
+          </button>
+        </nav>
       </header>
+
+      <main>
+        {view === 'search' ? <SearchPage /> : <DonorForm />}
+      </main>
     </div>
   );
 }
